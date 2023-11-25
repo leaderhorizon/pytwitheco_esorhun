@@ -1,0 +1,15 @@
+#kütüphaneleri içe aktaran kod. 
+import numpy as np
+import pandas as pd
+import scipy.stats as stats
+import math
+import matplotlib.pyplot as plt
+%matplotlib inline
+import seaborn as sns
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+from wooldridge import *
+import linearmodels as panel 
+import statsmodels.base.model as smclass
+import patsy as pt
+from statsmodels.tsa.stattools import adfuller
